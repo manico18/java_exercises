@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -19,7 +22,33 @@ public class Eje10 {
         // Por ejemplo:
         // 5 *****
 
+        Scanner sca = new Scanner(System.in);
         
+        int i,num,j;
+        j=1;
+        
+        do{
+        System.out.println("Ingrese 4 numeros");
+        num = sca.nextInt();
+        j++;
+        System.out.println("=======================");
+        
+        if (num<1 || num>20){
+                System.out.println("El numero ingresado esta fuera del rango");
+                j--;
+        continue;}
+        
+        System.out.print(num + (" "));
+            
+        for (i = 1; i <= num; i++) {
+            System.out.print("*");
+            
+        continue;}
+        
+            System.out.println("");
+            
+        } while (j<=4);       
+    }   
     }
     
-}
+

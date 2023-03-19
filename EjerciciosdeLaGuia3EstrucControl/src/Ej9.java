@@ -31,7 +31,7 @@ public class Ej9 {
         i=1;
         
         do {
-            System.out.println("Ingrese 20 veces cualquier numero: ");
+            System.out.println("Ingrese un numero: ");
             num = sca.nextInt();
             
             i++;
