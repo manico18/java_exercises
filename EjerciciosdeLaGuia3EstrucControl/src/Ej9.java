@@ -25,26 +25,32 @@ public class Ej9 {
         
         Scanner sca = new Scanner(System.in);
         
-        int num,suma;
-         
+        int num,suma,i;
+        
         suma=0;
+        i=1;
         
         do {
-            System.out.println("Ingrese 20 veces cualquier numero numero: ");
+            System.out.println("Ingrese 20 veces cualquier numero: ");
             num = sca.nextInt();
+            
+            i++;
+            if (i>=20){
+                System.out.println("Ya ah ingresado los 20 numeros requeridos. ");
+            break;}
             
             if (num<0){
                 System.out.println("El numero ingresado es negativo no se tendra en cuenta en la suma");   
             continue;}
             
-            
             suma=suma+num;
             continue;
-            
-            
-            
+              
         } while (num != 0);
-        System.out.println("Ah ingresado el numero 0");
+        
+        if (num==0){ 
+        System.out.println("Ah ingresado el numero 0");}
+        
         System.out.println("la suma de los numeros ingresados es: " + suma);
        
         
