@@ -18,7 +18,7 @@ public class Ej8 {
      */
     public static void main(String[] args) {
         // Escriba un programa que valide si una nota esta entre 0 y 10, sino 
-        // esta entre 0 y 10 la nota se pedirá de nuevo hasta que la nota sea correcta.
+        // esta entre 0 y 10 la nota se pedira de nuevo hasta que la nota sea correcta.
         
         Scanner sca = new Scanner (System.in);
         

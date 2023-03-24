@@ -28,7 +28,7 @@ public class Eje10 {
         j=1;
         
         do{
-        System.out.println("Ingrese 4 numeros");
+        System.out.println("Ingrese un numero");
         num = sca.nextInt();
         j++;
         System.out.println("=======================");
