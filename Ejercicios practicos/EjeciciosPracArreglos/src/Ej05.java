@@ -33,7 +33,7 @@ public class Ej05 {
             for (int f = 0; f < 3; f++) {                
                 System.out.print("["+matriz[f][c]+"]"); 
                 
-                if(matriz[c][f] == matriz[f][c] && matriz[c][f] <0 && matriz[f][c]<0){
+                if(matriz[c][f] == matriz[f][c]*(-1)){
                     ban = true;
                 }else{
                     ban = false; 
