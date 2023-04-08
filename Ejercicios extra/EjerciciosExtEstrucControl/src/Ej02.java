@@ -1,18 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author MATIAS
- */
 public class Ej02 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // Declarar cuatro variables de tipo entero A, B, C y D y asignarle un 
         // valor diferente a cada una. A continuación, realizar las instrucciones 
@@ -29,15 +17,9 @@ public class Ej02 {
         c = a;
         a = d;
         d = x;
-                
-        
-                
+       
         System.out.println("Valores luego del cambio "+a+" "+b+" "+c+" "+d);
         
-        
-        
-        
-
     }
     
 }

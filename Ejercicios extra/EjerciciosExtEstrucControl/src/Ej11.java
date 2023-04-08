@@ -1,21 +1,8 @@
 
 import java.util.Scanner;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author MATIAS
- */
 public class Ej11 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // Escribir un programa que lea un número entero y devuelva el número de 
         // dígitos que componen ese número. Por ejemplo, si introducimos el número 
@@ -24,19 +11,19 @@ public class Ej11 {
         // las variables de tipo entero truncan los números o resultados.
         
         Scanner sca = new Scanner(System.in);
-        
-        long num,i;
+
+        long num, i;
         System.out.print("Ingrese un numero: ");
-        num=sca.nextLong();
-        
-        i=0;
-        
-        while(num!=0){
-           i++; 
-          num=Math.abs(num/10);   
+        num = sca.nextLong();
+
+        i = 0;
+
+        while (num != 0) {
+            i++;
+            num = Math.abs(num / 10);
         }
-        
-        System.out.println("El numero de digitos del numero ingresado es: " +i);
+
+        System.out.println("El numero de digitos del numero ingresado es: " + i);
     }
-    
+
 }
