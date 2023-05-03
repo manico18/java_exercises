@@ -1,7 +1,7 @@
 package ejercicio01poo;
 
 import entidad.Libro;
-import java.util.Scanner;
+
 
 public class Ejercicio01POO {
 
@@ -15,10 +15,10 @@ public class Ejercicio01POO {
         el número de páginas.
          */
 
-        Scanner sca = new Scanner(System.in).useDelimiter("\n");
-        System.out.println("Ingrese el numero de ICBN, titulo, autor y numero de pagina del libro:");
-        Libro datos = new Libro(sca.nextInt(), sca.next(), sca.next(), sca.nextInt());
+        
+        Libro datos = new Libro();
       
+        datos.carLibro();
         System.out.println(datos);
 
     }

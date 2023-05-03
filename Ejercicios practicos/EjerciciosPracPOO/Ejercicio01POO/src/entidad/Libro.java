@@ -1,5 +1,7 @@
 package entidad;
 
+import java.util.Scanner;
+
 public class Libro {
 
     public int ICBN;
@@ -17,11 +19,24 @@ public class Libro {
         this.numDePag = numDePag;
     }
     
-    @Override
-    public String toString() {
-        return "Libro{" + "ICBN=" + ICBN + ", titulo=" + titulo + ", autor=" 
-                + autor + ", numDePag=" + numDePag + '}';
+    public void carLibro(){
+        Scanner sca = new Scanner(System.in).useDelimiter("\n");
+        System.out.print("Ingrese el numero de ICBN: ");
+        ICBN = sca.nextInt();
+        System.out.println("=================================");
+        System.out.print("Ingrese el titulo del libro: ");
+        titulo = sca.next();
+        System.out.println("=================================");
+        System.out.print("Ingrese el autor del libro: ");
+        autor = sca.next();
+        System.out.println("=================================");
+        System.out.print("Ingrese el numero de pagina del libro: ");
+        numDePag = sca.nextInt();
+        System.out.println("=================================");
     }
+
+    
+    
     
    
 }
