@@ -36,11 +36,11 @@ public class Ej03 {
         if (car<=8){
             System.out.println("CORRECTO");
         }else{
-            System.out.println("INCORRECTO");}
+            System.out.println("INCORRECTO");
         }
         
    
-        
+    }    
         
     }
     
